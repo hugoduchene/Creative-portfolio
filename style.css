@@ -290,6 +290,14 @@ html{
     color: white;
     z-index: 2;
     border: 1px solid black;
+    animation: see_btn_plus 1s infinite;
+}
+
+@keyframes see_btn_plus{
+    50%{
+        width: 10vh;
+        opacity: 0.5;
+    }
 }
 
 .btn_plus:hover{
